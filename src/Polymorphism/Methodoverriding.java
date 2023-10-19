@@ -9,6 +9,6 @@ public class Methodoverriding {
 	
 	public void marry()
 	{
-		System.out.println("deepika padukone");}
+		System.out.println("deepika padukone");
 	}
- 
+}

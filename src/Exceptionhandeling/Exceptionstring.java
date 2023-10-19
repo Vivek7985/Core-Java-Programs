@@ -7,7 +7,7 @@ public class Exceptionstring {
 		String v="VIVEK";
 		
 		try {
-			System.out.println(v.charAt(7));
+			System.out.println(v.charAt(5));
 		}
 		
 		catch(Exception e){

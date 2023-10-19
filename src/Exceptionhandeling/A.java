@@ -9,7 +9,7 @@ public class A {
 		}
 		
 		catch(ArithmeticException v){
-			System.out.println("This excption get handelled");
+			System.out.println("This exception get handelled");
 		
 		}
 		}
