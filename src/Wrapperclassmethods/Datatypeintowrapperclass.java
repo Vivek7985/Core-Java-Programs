@@ -29,7 +29,7 @@ public class Datatypeintowrapperclass {
 		
 		float f=5.5f;
 		Float F=Float.valueOf(f);
-		System.out.println();
+		System.out.println(F);
 	}
 
 }

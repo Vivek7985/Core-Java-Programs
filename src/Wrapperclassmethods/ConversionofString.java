@@ -7,6 +7,8 @@ public class ConversionofString {
 		String date="28";
 		
 		//conversion string to integer.
+		//ParseInt convert string into primitive.
+		
 		int i=Integer.parseInt(date);
 		System.out.println(i);
 		

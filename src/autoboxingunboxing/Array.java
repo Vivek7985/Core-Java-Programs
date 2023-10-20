@@ -1,18 +1,29 @@
 package autoboxingunboxing;
 
-import java.util.Arrays;
 
 public class Array {
 
 	public static void main(String[] args) {
 
-		int a[]={10,20,30,40};
-		//this is array.
-		
-		System.out.println(a[0]);
-		System.out.println(a[2]);
-		
-		System.out.println(Arrays.toString(a));//for printing all the values.
+		 // Autoboxing: Converting primitives to objects
+        Integer intObj = 42;  // Autoboxing int to Integer
+        Double doubleObj = 3.14;  // Autoboxing double to Double
+        Character charObj = 'A';  // Autoboxing char to Character
+
+        // Unboxing: Converting objects to primitives
+        int intValue = intObj;  // Unboxing Integer to int
+        double doubleValue = doubleObj;  // Unboxing Double to double
+        char charValue = charObj;  // Unboxing Character to char
+
+        System.out.println("Autoboxing and Unboxing Example:");
+        System.out.println("Integer Object: " + intObj);
+        System.out.println("Double Object: " + doubleObj);
+        System.out.println("Character Object: " + charObj);
+
+        System.out.println("Unboxing to primitives:");
+        System.out.println("int: " + intValue);
+        System.out.println("double: " + doubleValue);
+        System.out.println("char: " + charValue);
 	}
 
 }
